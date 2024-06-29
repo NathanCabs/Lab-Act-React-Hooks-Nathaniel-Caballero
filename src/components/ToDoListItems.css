@@ -1,0 +1,66 @@
+.task-list {
+    list-style-type: none; /* Remove list icon */
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-id {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .task-text {
+    flex: 1; /* Take remaining space */
+    margin-right: 10px;
+  }
+  
+  .task-status {
+    font-style: italic;
+    margin-right: 10px;
+  }
+  
+  .toggle-btn {
+    background-color: #3498db; /* Blue */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #f39c12; /* Yellow */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .cancel-btn {
+    background-color: #95a5a6; /* Gray */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
